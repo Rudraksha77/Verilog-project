@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mux8_1_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mux8_1_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="55.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="235.000 ns"></ZoomEndTime>
+      <Cursor1Time time="63.504 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/mux8_1_test/in0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in0</obj_property>
+      <obj_property name="ObjectShortName">in0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/in1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in1</obj_property>
+      <obj_property name="ObjectShortName">in1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/in2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in2</obj_property>
+      <obj_property name="ObjectShortName">in2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/in3" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in3</obj_property>
+      <obj_property name="ObjectShortName">in3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/in4" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in4</obj_property>
+      <obj_property name="ObjectShortName">in4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/in5" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in5</obj_property>
+      <obj_property name="ObjectShortName">in5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/in6" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in6</obj_property>
+      <obj_property name="ObjectShortName">in6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/in7" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">in7</obj_property>
+      <obj_property name="ObjectShortName">in7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/s2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">s2</obj_property>
+      <obj_property name="ObjectShortName">s2</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/s1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/s0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">s0</obj_property>
+      <obj_property name="ObjectShortName">s0</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux8_1_test/out" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

@@ -39,29 +39,5 @@ Verilog-Projects/
 └── README.md
 ```
 
-Verilog-Projects
-│── Combinational_Circuits
-│   ├── Half_Adder
-│   ├── Full_Adder
-│   ├── Comparator
-│   ├── Decoder
-│   ├── Encoder
-│   ├── Priority_Encoder
-│   ├── MUX
-│   └── DEMUX
-│
-│── Sequential_Circuits
-│   ├── Left_Shift_Register
-│   ├── Right_Shift_Register
-│   ├── Memory
-│   ├── Flip_Flop
-│   ├── Counter
-│   └── Register
-│
-│── Testbenches
-│── Simulation_Results
-│── README.md
-
-
 ## 🚧 Current Status
 This repository is continuously updated with new Verilog projects and digital design implementations.

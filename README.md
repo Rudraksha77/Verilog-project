@@ -20,9 +20,10 @@ This repository contains my Verilog HDL projects covering both **Combinational**
 - Right Shift Register
 - Memory
 - Flip-Flops (Coming Soon)
-- Counters (Coming Soon)
-- Registers (Coming Soon)
+- Counters
+- Fsm [moore fsm , mealy fsm] (coming soon)
 
+  
 ## 🎯 Purpose
 - Practice Verilog HDL programming.
 - Learn digital logic design concepts.

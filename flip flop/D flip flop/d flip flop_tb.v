@@ -1,20 +1,46 @@
-module mux(a,b,c,d,out,sel1,sel2)
-input a,b,c,d;
-output out;
+module Dflipflop_test;
+reg d,clk,clr;
+wire  q;
 
-always@(a,b,c,d);
+// instantiate the unit under test (uut)
+Dflipflop inst_Dflipflop(
+.d(d),
+.clk(clk),
+.clr(clr),
+.q(q)
+);
+
+always #10 clk=~clk;
+
+initial
 begin
-case:({sel1,sel2})
-2'b00:out=4'b0000;
-2'b01:out=4'b0010;
-2'b10:out=4'b0100;
-2'b11:out=4'b1000;
+// initialize the input
+d=0;
+clk=0;
+clr=1;
 
-default:out=1'b0;
+#20 clr=0;
 
-endcase
+#20  d=1;
+#20  d=0;
+#20  d=1;
+#20  d=0;
+#20;
+$finish;
+end
+
+initial
+begin
+$monitor("time=%0t d=%b clk=%b clr=%b q=%b",$time,d,clk,clr,q);
 end
 endmodule
+
+
+
+
+
+
+
 
 
 
